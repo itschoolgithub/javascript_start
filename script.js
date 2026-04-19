@@ -182,27 +182,88 @@
 // Выводит результат операции
 // Проверяйте ДЕЛЕНИЕ НА НОЛЬ
 
-let a = +prompt('Введите число 1');
-let b = +prompt('Введите число 2');
-let operator = prompt('Введите оператор: +, -, * или /');
+// let a = +prompt('Введите число 1');
+// let b = +prompt('Введите число 2');
+// let operator = prompt('Введите оператор: +, -, * или /');
 
-switch (operator) {
-    case '+':
-        alert('a + b = ' + (a + b));
-        break;
-    case '-':
-        alert('a - b = ' + (a - b));
-        break;
-    case '*':
-        alert('a * b' + (a * b));
-        break;
-    case '/':
-        if (b !== 0) {
-            alert('a / b = ' + (a / b));
-        } else {
-            alert('На ноль делить нельзя');
-        }
-        break;
-    default:
-        alert('Неизвестный оператор');
-}
+// switch (operator) {
+//     case '+':
+//         alert('a + b = ' + (a + b));
+//         break;
+//     case '-':
+//         alert('a - b = ' + (a - b));
+//         break;
+//     case '*':
+//         alert('a * b' + (a * b));
+//         break;
+//     case '/':
+//         if (b !== 0) {
+//             alert('a / b = ' + (a / b));
+//         } else {
+//             alert('На ноль делить нельзя');
+//         }
+//         break;
+//     default:
+//         alert('Неизвестный оператор');
+// }
+
+// let a = 0;
+
+// while(a < 500) {
+//     a = a + 1;
+//     console.log(a);
+// }
+
+// console.log('Продолжаем выполнение кода');
+
+// let a = 501;
+
+// while(a > 1) {
+//     a = a - 1;
+//     console.log(a);
+// }
+
+// let a = 1;
+// let sum = 0;
+
+// while (a <= 10) {
+//     if (a % 2 == 0)
+//         sum = sum + a;
+//     a = a + 1;
+// }
+
+// console.log('Сумма чисел от 1 до 10 равна ' + sum);
+
+// let a = -9;
+
+// do {
+//     alert(a);
+//     a = a - 1;
+// } while(a > 0);
+
+// let sum = 0;
+// for (let i = 1; i <= 100; i++) {
+//     // sum = sum + i;
+//     sum += i;
+// }
+
+// console.log('Сумма чисел от 1 до 100 равна ' + sum);
+
+let names = ["John", "Max", "Alice", "Bob"];
+
+// for (let i = 0; i < names.length; i++) {
+//     alert(names[i]);
+// }
+
+// for (name of names) {
+//     alert(name);
+// }
+
+let marks = [[5, 5, 4], [4, 4, 5], [[11, 100, 99, 27], 4, 3], [2, 2, 2]];
+
+marks[3][0] = 5;
+
+// names.push("Bob");
+// names[2] = "Ivan";
+// names[3] = "Alice";
+// names[10] = "Bob";
